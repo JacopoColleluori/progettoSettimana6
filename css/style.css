@@ -28,16 +28,14 @@
     margin-top: 10px;
 }
 
-.timer {
-    padding: 10px 0;
-}
+
 
 .icon {
     cursor: pointer;
     font-size: 80px;
     text-align: center;
     visibility: visible !important;
-    opacity: 1;
+    opacity: 0;
     width: 150px;
     height: 150px;
     cursor: pointer;
