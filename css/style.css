@@ -20,7 +20,7 @@
 }
 
 #griglia>div {
-    /* dimensioni e margini */
+  
     background-color: #b80adbdc;
     border: 1px solid #3889c4;
     border-radius: 10px;
@@ -56,7 +56,7 @@
 }
 
 .find {
-    /* agganciare animation-name indovinato */
+  
     animation-name: indovinato;
     animation-duration: .5s;
     background-color: rgba(247, 212, 16, 0.56);
@@ -138,7 +138,7 @@
 }
 
 @keyframes indovinato {
-    /* animazione quando si indovina */
+   
     from {
         transform: scale(1);
     }
@@ -151,7 +151,7 @@
 }
 
 @keyframes rotazione-carta {
-    /* animazione quando ruota la carta */
+   
     from {
         transform: rotate3d(0, 1, 0, 0deg);
         opacity: 0;
